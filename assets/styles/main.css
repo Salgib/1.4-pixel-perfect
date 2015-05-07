@@ -1,3 +1,65 @@
-.title, article h1,  .sidebar-article h2{
+.banner {
+  display: inline-block;
+  background-color: #1C77B7;
+  width: 1300px;
+  height: 523px;
+}
+
+.banner, .author-info, .bottom-buttons, .popular-posts, footer, {
+display: inline;
+}
+
+article {
+  float: left;
+  margin-left: 165px;
+  margin-right: 85px;
+  margin-top: 70px
+}
+
+article h1 {
+  font-size: 60px;
+}
+
+article p {
+  width: 611px;
+  font-size: 18px;
+}
+
+
+
+.title, article h1,  .sidebar-article h2, .popular-posts h1{
   font-family: Oswald;
+}
+
+aside {
+  width: 277px;
+  float: right;
+  margin-right: 163px;
+  margin-left: auto;
+  margin-top: 83px;
+}
+
+hr {
+  width: 1300px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-posts {
+  display:inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 1300px;
+}
+
+footer {
+  background-color: #093450;
+  display: inline-block;
+  width: 1300px;
+}
+
+.bottom-nav li{
+  float: right;
+  font-color: #A3B3BE;
 }
