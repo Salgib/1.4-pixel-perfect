@@ -6,7 +6,7 @@
 }
 
 .banner, .author-info, .bottom-buttons, .popular-posts, footer, {
-display: inline;
+display: inline-block;
 }
 
 article {
@@ -25,7 +25,9 @@ article p {
   font-size: 18px;
 }
 
-
+.author-info {
+  width: 611px;
+}
 
 .title, article h1,  .sidebar-article h2, .popular-posts h1{
   font-family: Oswald;
@@ -48,9 +50,21 @@ hr {
 
 .popular-posts {
   display:inline-block;
-  margin: 0 auto;
-  padding: 0;
+  max-width: 1300px;
+  height: 476px;
+  margin: 0;
+}
+
+.popular-posts h1 {
+  padding-top:43px;
+  padding-bottom: 47px;
+}
+
+.pppics {
+  height: 330px;
   width: 1300px;
+  margin: 0px;
+  padding: 0px;
 }
 
 footer {
@@ -59,7 +73,7 @@ footer {
   width: 1300px;
 }
 
-.bottom-nav li{
+.bottom-nav p{
   float: right;
-  font-color: #A3B3BE;
+  color: #A3B3BE;
 }
