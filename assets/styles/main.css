@@ -1,12 +1,24 @@
+li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
 .banner {
   display: inline-block;
   background-color: #1C77B7;
   width: 1300px;
   height: 523px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner, .author-info, .bottom-buttons, .popular-posts, footer, {
 display: inline-block;
+}
+
+.top-nav {
+  margin: auto;
 }
 
 article {
@@ -27,6 +39,7 @@ article p {
 
 .author-info {
   width: 611px;
+  text-align: left;
 }
 
 .title, article h1,  .sidebar-article h2, .popular-posts h1{
@@ -39,6 +52,12 @@ aside {
   margin-right: 163px;
   margin-left: auto;
   margin-top: 83px;
+}
+
+
+
+.advert p {
+  text-align: right;
 }
 
 hr {
@@ -73,7 +92,7 @@ footer {
   width: 1300px;
 }
 
-.bottom-nav p{
-  float: right;
+.bottom-nav p, li{
+  text-align: right;
   color: #A3B3BE;
 }
