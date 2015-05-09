@@ -2,12 +2,25 @@
 
 .content {
   max-width: 990px;
+  position: relative;
+  background-color: red;
+  margin-left: 141px;
 }
 
 header {
-  position: relative;
-  padding-left:141px;
+  max-width:990px;
+  margin: 0 auto;
+  padding-top: 10px;
   padding-right:169px;
+  position: relative;
+  margin-left: 141px;
+
+}
+
+.right-nav {
+  position: absolute;
+  top: 22px;
+  right: 169px;
 }
 
 .banner {
@@ -15,13 +28,13 @@ header {
   background-color: #1C77B7;
   width: 1300px;
   height: 523px;
-  margin: 0 auto;
 }
 
 .author-info ul.li, .bottom-buttons, .popular-posts, footer {
 display: inline-block;
 }
 
+/*
 .surf-logo {
   position: absolute;
   top: 10px;
@@ -33,7 +46,7 @@ display: inline-block;
   top: 26px;
   left: 200px;
 }
-
+*/
 .title {
   position: absolute;
   left: 197px;
@@ -44,11 +57,11 @@ display: inline-block;
 
 }
 
-.title p {
+.title h3 {
   font-size: 12px;
   position: absolute;
-  margin-left: 497px
-  margin-right: 502px;
+  top: 316px;
+  right: 502px;
   letter-spacing: 0px;
 
 }
@@ -56,9 +69,8 @@ display: inline-block;
 
 article {
   float: left;
-  margin-left: 165px;
-  margin-right: 85px;
-  margin-top: 70px
+  margin-top: 70px;
+  margin-left: 25px;
 }
 
 article h1 {
@@ -67,19 +79,22 @@ article h1 {
   line-spacing: 0;
 }
 
-article p {
-  width: 611px;
-  font-size: 18px;
-}
-
-.author-info {
-  width: 611px;
-}
 
  .banner, article h1,  .sidebar-article h2, .popular-posts h1{
   font-family: Oswald;
 }
 
+.author {
+  float: right;
+  max-width: 276px;
+  margin: 83px auto;
+}
+
+.advert {
+  float: right;
+}
+
+/*
 aside {
   width: 277px;
   float: left;
@@ -88,7 +103,7 @@ aside {
   margin-left: auto;
   margin-top: 83px;
 }
-
+*/
 
 
 
