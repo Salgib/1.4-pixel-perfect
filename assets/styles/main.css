@@ -71,6 +71,7 @@ article {
   float: left;
   margin-top: 70px;
   margin-left: 25px;
+
 }
 
 article h1 {
@@ -79,19 +80,30 @@ article h1 {
   line-spacing: 0;
 }
 
+.article-body {
+  max-width:611px;
+  font-size: 24px;
+  background-color: green;
+}
 
  .banner, article h1,  .sidebar-article h2, .popular-posts h1{
-  font-family: Oswald;
+  font-family: Oswald open-serif;
 }
 
 .author {
   float: right;
+  margin-top: -103px;
+  right: 50px;
   max-width: 276px;
-  margin: 83px auto;
 }
+ .author p {
+   display: inline-block;
+   margin-left: -25px;
+ }
 
 .advert {
   float: right;
+  margin-top: -68px;
 }
 
 /*
