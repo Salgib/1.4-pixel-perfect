@@ -3,9 +3,14 @@
 .content {
   max-width: 990px;
   position: relative;
-  background-color: red;
   margin-left: 141px;
 }
+
+
+ .banner, article h1,  .sidebar-article h2, .popular-posts h1, .title{
+  font-family: "Oswald" open-serif;
+}
+
 
 header {
   max-width:990px;
@@ -30,34 +35,18 @@ header {
   height: 523px;
 }
 
-.author-info ul.li, .bottom-buttons, .popular-posts, footer {
-display: inline-block;
-}
 
-/*
-.surf-logo {
-  position: absolute;
-  top: 10px;
-  left: 140px;
-}
 
-.surf-name {
-  position: absolute;
-  top: 26px;
-  left: 200px;
-}
-*/
 .title {
   position: absolute;
+  font-size: 86px;
+  letter-spacing: 0.1em;
   left: 197px;
   top: 225px;
-  font-size: 86px;
-  letter-spacing: 0.2em;
   display:inline-block;
-
 }
 
-.title h3 {
+.subtitle {
   font-size: 12px;
   position: absolute;
   top: 316px;
@@ -76,47 +65,80 @@ article {
 
 article h1 {
   font-size: 58px;
+  color: #093450;
   letter-spacing: 2px;
-  line-spacing: 0;
+  line-spacing: 0.8px;
+  line-height: 70px;
+  margin-top: -10px;
+  padding-bottom: 10px;
 }
 
+.author-info {
+  padding-bottom: 30px;
+}
 .article-body {
-  max-width:611px;
-  font-size: 24px;
-  background-color: green;
+  max-width: 611px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 27px;
 }
 
- .banner, article h1,  .sidebar-article h2, .popular-posts h1{
-  font-family: Oswald open-serif;
+.article-body p {
+  padding-bottom: 25px;
 }
 
 .author {
   float: right;
   margin-top: -103px;
-  right: 50px;
   max-width: 276px;
 }
  .author p {
    display: inline-block;
    margin-left: -25px;
+
+ }
+
+.vert-line {
+  height: 55px;
+  border-left: 2px solid #D3D3D3;
+  position: relative;
+  margin-top: -15px;
+  margin-bottom: 25px;
+
+}
+
+.radical {
+  position: absolute;
+  color: #146EAE;
+  top: 22px;
+  left: 19px;
+  font-family: "Arial";
+  font-size: 26px;
+}
+
+.article-body2 {
+  max-width: 611px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 27px;
+  padding-bottom: 25px;
+}
+
+ .author .name {
+   font-family: "Oswald";
  }
 
 .advert {
   float: right;
-  margin-top: -68px;
+  margin-left: 10px;
+  margin-top: -305px;
+  text-align: right;
 }
 
-/*
-aside {
-  width: 277px;
-  float: left;
-  right: 124px;
-  margin-right: 163px;
-  margin-left: auto;
-  margin-top: 83px;
+.sidebar-article {
+  position: relative;
+  text-align: right;
 }
-*/
-
 
 
 hr {
