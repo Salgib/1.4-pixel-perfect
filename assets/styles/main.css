@@ -89,6 +89,7 @@ article h1 {
 
 .author {
   float: right;
+  right: 50px;
   margin-top: -103px;
   max-width: 276px;
 }
