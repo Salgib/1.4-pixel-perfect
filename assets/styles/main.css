@@ -161,17 +161,114 @@ hr {
   padding:43px 0 47px 370px;
   color: RGBA(7, 52, 79, 1);
   font-size: 4em;
-
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
 }
 
-.pppics {
-  display: block;
+.popular-posts-images {
+  display: inline-block;
+  height: 327px;
   margin: 0;
   padding: 0;
-  font-size: 0;
+  /*font-size: 0;*/
+  background-color: #1C77B7;
 }
+
+
+
+.post-image-1{
+  height: 330px;
+  width: 324px;
+  display: inline-block;
+  position: relative;
+  float:left;
+  background:
+    linear-gradient(
+      RGBA(18, 110, 174, 0.45),
+      RGBA(18, 110, 174, 0.45)
+      ),
+    url('../images/post-pic1.png');
+}
+
+.post-image-1:hover {
+  background: url('../images/post-pic1.png');
+  color: white;
+}
+
+.post-image-2{
+  background-color: #1C77B7;
+  height: 330px;
+  width: 325px;
+  display: inline-block;
+  position: relative;
+  float:left;
+  background:
+    linear-gradient(
+      RGBA(18, 110, 174, 0.45),
+      RGBA(18, 110, 174, 0.45)
+      ),
+    url('../images/post-pic2.png');
+}
+
+.post-image-2:hover {
+  background: url('../images/post-pic2.png')
+}
+
+.post-image-3{
+  background-color: #1C77B7;
+  height: 330px;
+  width: 326px;
+  display: inline-block;
+  position: relative;
+  float:left;
+  background:
+    linear-gradient(
+      RGBA(18, 110, 174, 0.45),
+      RGBA(18, 110, 174, 0.45)
+      ),
+    url('../images/post-pic3.png');
+}
+
+
+.post-image-3:hover {
+  background: url('../images/post-pic3.png')
+}
+
+.post-image-4{
+  background-color: #1C77B7;
+  height: 330px;
+  width: 324px;
+  display: inline-block;
+  position: relative;
+  float:left;
+  background:
+    linear-gradient(
+      RGBA(18, 110, 174, 0.45),
+      RGBA(18, 110, 174, 0.45)
+      ),
+    url('../images/post-pic4.png');
+}
+
+.post-image-4:hover {
+  background: url('../images/post-pic4.png')
+}
+
+.post-caption {
+  position: absolute;
+  display:inline-block;
+  font-size: 1.60em;
+  color: RGBA(7, 52, 79, 1);
+  top: 275px;
+  left: 18px;
+}
+
+.post-image-1:hover > h2,
+.post-image-2:hover > h2,
+.post-image-3:hover > h2,
+.post-image-4:hover > h2{
+  color: RGBA(255, 255, 255, 1);
+}
+
 
 footer {
   background-color: #093450;
