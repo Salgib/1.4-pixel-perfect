@@ -152,14 +152,15 @@ hr {
   position: relative;
   display:block;
   width: 1308px;
-  height: 436px;
+  height: 146px;
   margin: 0;
   padding: 0;
 }
 
 .popular-posts h1 {
-  padding-top:43px;
-  padding-bottom: 47px;
+  padding:43px 0 47px 370px;
+  color: RGBA(7, 52, 79, 1);
+  font-size: 4em;
 
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
