@@ -280,7 +280,7 @@ left: 183px;
   background-color: #126EAE;
 }
 
-.bottom-buttons:hover > span {
+.bottom-buttons:hover  .button-icon {
   background-color: #07344F;
 }
 
