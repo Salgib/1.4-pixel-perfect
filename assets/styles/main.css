@@ -11,6 +11,10 @@
   font-family: "Oswald" open-serif;
 }
 
+.clear {
+  clear: both;
+}
+
 
 
 
@@ -144,6 +148,10 @@ header {
   padding-bottom: 10px;
 }
 
+.extra-pad{
+  padding-bottom: 91px;
+}
+
 .article-body p {
   padding-bottom: 25px;
 }
@@ -242,6 +250,44 @@ left: 183px;
   line-height: 1.5;
 }
 /*End Sidebar Styles*/
+
+
+/*Start Bottom Buttons Styles*/
+.bottom-buttons {
+  display: inline-block;
+  position: absolute;
+  top: 1455px;
+  left: 178px;
+}
+
+.bottom-buttons p {
+  -webkit-box-sizing: border-box;
+  background-color: #BAC6CE;
+  display: inline-block;
+  padding: 6px 14px 7px 14px;
+  margin-right: 10px;
+  color: white;
+}
+
+.button-icon {
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  height: 29px;
+  width: 33px;
+  padding-top: 5px;
+  padding-left: 8px;
+  background-color: #5E686E;
+  color: white;
+}
+
+.bottom-buttons p:hover {
+  background-color: #126EAE;
+}
+
+.bottom-buttons:hover > span {
+  background-color: #07344F;
+}
+
 
 
 
