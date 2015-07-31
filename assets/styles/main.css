@@ -5,7 +5,7 @@
 
 
  .banner,
-  article h1,
+ .headline h1,
  .sidebar-article h2,
  .popular-posts h1,
  .brand {
@@ -101,14 +101,14 @@ header {
 }
 
 
-article {
+.main-article {
   float: left;
   margin-top: 70px;
-  margin-left: 25px;
+  margin-left: 163px;
 
 }
 
-article h1 {
+.headline h1 {
   font-size: 58px;
   color: #093450;
   letter-spacing: 2px;
@@ -121,11 +121,26 @@ article h1 {
 .author-info {
   padding-bottom: 30px;
 }
+
+.author-name {
+  color: #126EAE;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.date,
+.date a {
+  color: #BAC6CE;
+}
+
 .article-body {
   max-width: 611px;
-  font-size: 14px;
+  font-size: 0.93em;
   font-family: "Open Sans";
   line-height: 27px;
+  float: left;
+  color: #5E686E;
+  padding-bottom: 10px;
 }
 
 .article-body p {
@@ -144,22 +159,26 @@ article h1 {
 
  }
 
+.callout {
+  position: relative;
+
+}
 .vert-line {
   height: 55px;
   border-left: 2px solid #D3D3D3;
   position: relative;
   margin-top: -15px;
   margin-bottom: 25px;
+  display: inline-block;
 
 }
 
 .radical {
-  position: relative;
-  color: #146EAE;
-  top: 22px;
+  position: absolute;
+  color: #126EAE;
   left: 19px;
-  font-family: "Arial";
-  font-size: 26px;
+  font-family: "Open Sans";
+  font-size: 2em;
 }
 
 .article-body2 {
