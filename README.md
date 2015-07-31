@@ -13,4 +13,4 @@ I built this project during week 1 at The Iron Yard Academy to utilize common HT
 * Click the link and enjoy/
 
 ###Live Demo:
-* http://salgib.github.io/1.4-pixel-perfect
+* http://salgib.github.io/1.4-pixel-perfect  
