@@ -1,8 +1,7 @@
-.content {
+.container {
   width: 1300px;
   margin: 10px 0 0 10px;
 }
-
 
  .banner,
  .headline h1,
@@ -13,6 +12,10 @@
 }
 
 
+
+
+
+/*Start Banner Styles*/
 header {
   max-width:990px;
   margin: 0 auto;
@@ -20,7 +23,6 @@ header {
   padding-right:169px;
   position: relative;
   margin-left: 141px;
-
 }
 
 .right-nav {
@@ -31,7 +33,6 @@ header {
   display: inline-block;
   font-family: "Oswald" open-serif;
 }
-
 
 .brand,
 .right-nav a,
@@ -73,8 +74,6 @@ header {
   height: 523px;
 }
 
-
-
 .title {
   position: relative;
   font-size: 86px;
@@ -95,17 +94,18 @@ header {
   width: 270px;
   top: 313px;
   right: 550px;
-
   letter-spacing: 0px;
-
 }
+/*End Banner Styles*/
 
 
+
+
+/*Start Main Article Styles*/
 .main-article {
   float: left;
   margin-top: 70px;
   margin-left: 163px;
-
 }
 
 .headline h1 {
@@ -129,7 +129,8 @@ header {
 }
 
 .date,
-.date a {
+.date a,
+.advert-link {
   color: #BAC6CE;
 }
 
@@ -147,18 +148,6 @@ header {
   padding-bottom: 25px;
 }
 
-.author {
-  float: right;
-  right: 50px;
-  margin-top: -103px;
-  max-width: 276px;
-}
- .author p {
-   display: inline-block;
-   margin-left: -25px;
-
- }
-
 .callout {
   position: relative;
 
@@ -170,7 +159,6 @@ header {
   margin-top: -15px;
   margin-bottom: 25px;
   display: inline-block;
-
 }
 
 .radical {
@@ -180,32 +168,84 @@ header {
   font-family: "Open Sans";
   font-size: 2em;
 }
+/*End Main Article Styles*/
 
-.article-body2 {
-  max-width: 611px;
-  font-size: 14px;
-  font-family: "Open Sans";
-  line-height: 27px;
-  padding-bottom: 25px;
+
+
+/*Start Sidebar Styles*/
+.sidebar {
+  position: relative;
+}
+.headshot {
+  position: relative;
+  display: inline-block;
 }
 
- .author .name {
-   font-family: "Oswald";
- }
+.author {
+position: absolute;
+top: 83px;
+left: 183px;
+}
+
+.headshot-name {
+  font-size: 1.1em;
+  color: #126EAE;
+  font-family: "Open Sans";
+  width: 105px;
+  padding: 10px 0 5px 0;
+}
+
+.social-links {
+  position: absolute;
+  top: 215px;
+  right: 176px;
+}
+
+.social-links a {
+  color: #5E686E;
+  text-decoration: none;
+  font-family: "Open Sans";
+  padding: 0 5px;
+}
+
 
 .advert {
+  position: absolute;
+  height: 323px;
+  width: 278px;
+  top: 285px;
+  right: 161px;
+}
+
+.advert-link {
   float: right;
-  margin-left: 10px;
-  margin-top: -305px;
-  text-align: right;
+  padding-top: 5px;
 }
 
 .sidebar-article {
-  position: relative;
-  text-align: right;
+  height: 186px;
+  width: 270px;
+  position: absolute;
+  top: 658px;
+  right: 170px;
 }
 
+.sidebar-article h2{
+  color: #126EAE;
+  font-size: 1.1em;
+  font-family: "Oswald";
+  padding-bottom: 10px;
+}
 
+.sidebar-article p {
+  color: #BAC6CE;
+  line-height: 1.5;
+}
+/*End Sidebar Styles*/
+
+
+
+/*Start Popular Posts Styles*/
 hr {
   width: 1300px;
   height: 1px;
@@ -236,11 +276,8 @@ hr {
   width: 1300px;
   margin: 0;
   padding: 0;
-  /*font-size: 0;*/
   background-color: #1C77B7;
 }
-
-
 
 .post-image-1{
   height: 330px;
@@ -334,8 +371,12 @@ hr {
 .post-image-4:hover > h2{
   color: RGBA(255, 255, 255, 1);
 }
+/*End Popular Posts Styles*/
 
 
+
+
+/*Start Footer Styles*/
 footer {
   background-color: #093450;
   display: block;
@@ -377,3 +418,4 @@ footer {
   position: relative;
   top: 2px;
 }
+/*End Footer Styles*/
