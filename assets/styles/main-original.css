@@ -1,0 +1,122 @@
+
+.banner {
+  display: inline-block;
+  background-color: #1C77B7;
+  width: 1300px;
+  height: 523px;
+  margin: 0 auto;
+}
+
+.author-info ul.li, .bottom-buttons, .popular-posts, footer {
+display: inline-block;
+}
+
+.surf-logo {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+
+.surf-name {
+  position: absolute;
+  top: 26px;
+  left: 200px;
+}
+
+.title {
+  position: absolute;
+  left: 197px;
+  top: 225px;
+  font-size: 86px;
+  letter-spacing: 0.2em;
+  display:inline-block;
+
+}
+
+.title p {
+  font-size: 12px;
+  position: absolute;
+  margin-left: 497px
+  margin-right: 502px;
+  letter-spacing: 0px;
+
+}
+
+
+article {
+  float: left;
+  margin-left: 165px;
+  margin-right: 85px;
+  margin-top: 70px
+}
+
+article h1 {
+  font-size: 58px;
+  letter-spacing: 2px;
+  line-spacing: 0;
+}
+
+article p {
+  width: 611px;
+  font-size: 18px;
+}
+
+.author-info {
+  width: 611px;
+}
+
+ .banner, article h1,  .sidebar-article h2, .popular-posts h1{
+  font-family: Oswald;
+}
+
+aside {
+  width: 277px;
+  float: left;
+  right: 124px;
+  margin-right: 163px;
+  margin-left: auto;
+  margin-top: 83px;
+}
+
+
+
+
+hr {
+  width: 1300px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-posts {
+  position: relative;
+  display:inline-block;
+  max-width: 1300px;
+  height: 476px;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+.popular-posts h1 {
+  padding-top:43px;
+  padding-bottom: 47px;
+  display: inline-block;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+}
+
+.pppics  li{
+  display: inline-block;
+}
+
+footer {
+  background-color: #093450;
+  display: inline-block;
+  width: 1300px;
+  padding-top: 0px;
+}
+
+.bottom-nav p, li{
+  text-align: right;
+  color: #A3B3BE;
+}
