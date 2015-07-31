@@ -1,6 +1,6 @@
 # Pixel Perfect Website
 
-I built this project during week 1 at The Iron Yard Academy to utilize common HTML and CSS techniques to build a functioning, pixel-perfect website recreation of a PSD mockup.
+I built this project during week 1 at The Iron Yard Academy to utilize common HTML and CSS techniques to build a functioning, pixel-perfect website recreation of a PSD mockup. (Sidenote: Misspellings and inconsistencies were part of the assignment to ensure pixel-perfect)
 
 ###Tools Used:
 * CSS properties for styling
